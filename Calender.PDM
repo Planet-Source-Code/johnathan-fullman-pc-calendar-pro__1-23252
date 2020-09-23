@@ -1,0 +1,98 @@
+[Root]
+Most Recent Package=X
+
+[Package|X|Calender]
+Icon1=Calender.EXE
+Title1=Calender
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|X|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Visual Basic 6.0\VB98\My Programs\Cal2\Package
+
+[Package|X|Configure DAO ISAMs]
+Applicable=No
+
+[Package|X|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|X|Files Found]
+
+[Package|X|Files Released]
+
+[Package|X|Missing Dependency Information]
+
+[Package|X|Out-of-Date Dependency Information]
+
+[Package|X|Files Added]
+e:\visual basic 6.0\vb98\my programs\cal2\tips.dat=
+
+[Package|X|Files Removed]
+
+[Package|X|Files In Project]
+E:\Visual Basic 6.0\VB98\My Programs\Cal2\Calender.exe=Yes
+C:\OS\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\OS\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\OS\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\OS\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\OS\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+E:\Visual Basic 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\Visual Basic 6.0\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Visual Basic 6.0\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\OS\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+E:\Visual Basic 6.0\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Visual Basic 6.0\VB98\My Programs\Cal2\Tips.dat=Yes
+
+[Package|X|Configure Registry Files]
+Applicable=No
+
+[Package|X|Configure Remote Servers]
+Applicable=No
+
+[Package|X|Install Locations]
+E:\Visual Basic 6.0\VB98\My Programs\Cal2\Calender.exe=$(AppPath)
+C:\OS\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\OS\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\OS\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\OS\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\OS\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\Visual Basic 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\Visual Basic 6.0\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Visual Basic 6.0\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\OS\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Visual Basic 6.0\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Visual Basic 6.0\VB98\My Programs\Cal2\Tips.dat=$(AppPath)
+
+[Package|X|Configure Shared Files]
+Applicable=Yes
+E:\Visual Basic 6.0\VB98\My Programs\Cal2\Calender.exe=No
+E:\Visual Basic 6.0\VB98\My Programs\Cal2\Tips.dat=No
+
+[Package|X|Distribution]
+Type=single
+Size=
+Title=Calendar
+
+[Package|X|IconGroups]
+Group0=Calendar
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|X|Calendar]
+Icon1=Calender.EXE
+Title1=Calendar
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|X|Package]
+PackageFolder=E:\Visual Basic 6.0\VB98\My Programs\Cal2\Package
+ProjectFolder=E:\Visual Basic 6.0\VB98\My Programs\Cal2
+ServerSideCab=
+File1=E:\Visual Basic 6.0\VB98\My Programs\Cal2\Package\setup.exe
+File2=E:\Visual Basic 6.0\VB98\My Programs\Cal2\Package\Setup.Lst
+File3=E:\Visual Basic 6.0\VB98\My Programs\Cal2\Package\Calender.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
